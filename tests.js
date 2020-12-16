@@ -1,4 +1,4 @@
-const describe = require('mocha').describe
+var describe = require('mocha').describe
 const it = require('mocha').it
 const expect = require('chai').expect
 const stringIncludes = require('./index').stringIncludes
